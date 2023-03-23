@@ -6,7 +6,7 @@ This lab demonstrates:
 3. Redistribution of Routing Protocols.
 4. Route-filter.
 5. Redistribution using Router-filter.
-This topology consists of 40 Routers and is based on EIGRP and RIP. The purpose of this lab is to allow some networks to be redistributed while denying the others. I have also included a rough topology in paint for you to create your own topology in GNS3 or any other simulation software.
+This topology consists of 40 Routers and is based on EIGRP and RIP. The purpose of this lab is to allow some networks to be redistributed while denying the others. 
 
 The protocol or AS written alongside the loopbacks on the routers are those networks which need to be denied for the mentioned AS.
 
@@ -25,7 +25,7 @@ Example: We have to redistribute a RIP route into EIGRP 100 and deny network 2.0
 	#router eigrp 100
 		#redistribute rip metric 10 10 1 1 1 route-map ABC
 
-I have included the topology file and config files.
+I have included the topology file and config files. Toplogy diagram is also included for you to create your own topology in GNS3 or any other simulation software.
 Happy learning ! 
 
 
